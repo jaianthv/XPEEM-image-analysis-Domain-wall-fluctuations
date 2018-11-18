@@ -1,33 +1,33 @@
-Matlab code for analyzing domain wall fluctuations for PEEM images
--------------------------------------------------------------------
-The code extracts domain wall of magnetic sample from an image sequence acquired
-from X-ray photoemission electron microscopy. The code does the following
-function described in the videos shown below;
+Matlab code for domain wall extraction from magnetic contrast images obtained from X-ray photoemission electron microscopy
+--------------------------------------------------------------------------------------------------------------------------
+The code extracts the domain walls of magnetic domains from an image sequence acquired from X-ray photoemission electron microscopy. The code does the following function described in the videos shown below
+1. Load XPEEM image sequence after drift correction
 
-1. Original image sequence after drift correction
+<IMG SRC="i161204_084_Original.gif" height="80" width="80"><br>
+  
+2. Clear unwanted area<br>
+<IMG SRC="i161204_084_DIV_Clear_out.gif" height="80" width="80"><br>
 
-2. Clearing unwanted area
+3. Finally, Extracts domain walls from the individual images from the sequence<br>
+<IMG SRC="edges_02112018.gif" height="80" width="80"><br>
 
-3. Extracting domain wall from individual images from the sequence
-
-The extracted DW image still requires pre processing of the images to obtain
-perfect edges, here we are picking up the noises from the detector as well.
-
-How to use the code:
+<br>
+<u>How to use the code:</u><br>
+<br>
 Simply copy paste the code in the Matlab command window, edit as needed and run.
-Description of the code, with example is available as pdf
+Description of the code, with example is available as pdf<br>
+<br>
 
 
+Codes written by Jaianth Vijayakumar<br>
+<br>
 
-Codes written by Jaianth Vijayakumar
+XPEEM images shown here were acquired by Jaianth Vijayakumar, Carlos A.F. Vaz<br>
+<br>
 
-XPEEM images shown here were acquired by Jaianth Vijayakumar, Carlos A.F. Vaz
-
-Samples prepared by Jaianth Vijayakumar, Micheal Horisberger
-
-Supervisors for this project : Carlos A.F. Vaz and Frithjof Nolting
-
-THE XPEEM IMAGES SHOWN HERE WERE MEASURED AT SIM BEAMLINE IN SWISS LIGHT SOURCE
-PAUL SCHERRER INSTITUT, SWITZERLAND
-
-
+Samples prepared by Jaianth Vijayakumar, Michael Horisberger<br>
+<br>
+Supervisors for this project : Carlos A.F. Vaz and Frithjof Nolting<br>
+<br>
+THE XPEEM IMAGES SHOWN HERE WERE MEASURED AT SIM BEAMLINE at the SWISS LIGHT SOURCE,
+PAUL SCHERRER INSTITUT, SWITZERLAND<br>
