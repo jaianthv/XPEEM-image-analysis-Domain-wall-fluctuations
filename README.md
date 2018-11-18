@@ -1,8 +1,7 @@
 Matlab code for domain wall extraction from magnetic contrast images obtained from X-ray photoemission electron microscopy
 --------------------------------------------------------------------------------------------------------------------------
 The code extracts the domain walls of magnetic domains from an image sequence acquired from X-ray photoemission electron microscopy. The code does the following function described in the videos shown below
-1. Load XPEEM image sequence after drift correction
-
+1. Load XPEEM image sequence after drift correction<br>
 <IMG SRC="i161204_084_Original.gif" height="80" width="80"><br>
   
 2. Clear unwanted area<br>
