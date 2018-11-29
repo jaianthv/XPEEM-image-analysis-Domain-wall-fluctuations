@@ -7,7 +7,7 @@ srcFiles = dir('Z:\image*');
 
 for i = 1 : length(srcFiles)
 
-% Clearing the outside part of the image, such as camera frame etc.
+% Clearing the outside part of the image, such as detectors/sensors frame etc.
     I=imread(srcFiles(i).name);
     imageSize = size(I);
     center = [256, 256, 190];  % center and radius of circle ([c_row, c_col, radius])
