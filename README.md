@@ -14,7 +14,7 @@ The code extracts the domain walls of magnetic domains from an image sequence ac
 <u>How to use the code:</u><br>
 <br>
 Simply copy paste the code in the Matlab command window, edit as needed and run.
-Description of the code along with the necessary references, with an example is available as pdf<br>
+Description of the code along with the necessary references, with an example is available as pdf (DW_analysis.pdf)<br>
 <br>
 
 
